@@ -4,8 +4,9 @@ Prueba técnica weatherAPP para GradiWeb!
 
 Comenzando 🚀
 
-Mira Deployment para conocer como desplegar el proyecto.
+Mira Deployment para conocer como desplegar el proyecto. ( abrelo tanto en web como en mobile Diseño adaptable)
 
+https://suspicious-jones-81a8e7.netlify.app/
 
 <p align="center">
   <img src="./src/stylesSCSS/img/mobile.png" width="350" title="hover text">
