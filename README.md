@@ -7,6 +7,12 @@ Comenzando 🚀
 Mira Deployment para conocer como desplegar el proyecto.
 
 
+<p align="center">
+  <img src="./src/stylesSCSS/img/mobile.png" width="350" title="hover text">
+  <img src="./src/stylesSCSS/img/Web.png" width="350" alt="accessibility text">
+</p>
+
+
 ## Pre-requisitos 📋
 Para correr el proyecto necesitas un editor de código y una terminal con Node.js instalado.
 Por ejemplo Visual Studio Code ( tiene una terminal incluida )
