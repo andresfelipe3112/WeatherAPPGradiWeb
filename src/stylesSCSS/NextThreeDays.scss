@@ -1,0 +1,71 @@
+@import "variable";
+
+.ContainerNextThreeDays{
+    width: 550px;
+    height:50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-self: center;
+    margin:1vh;
+    
+   
+    position: relative;
+    top:-45px;
+    @include BorderRadius20px;
+
+    img{
+        margin-top: -4vh;
+    }
+
+
+    h2{
+        font-size:15px;
+        width: 30px;
+        height: 35px;
+        text-align: center;
+        color:  $ColorthypographyBannerBogota-Colombia;
+        margin:3vh; 
+    }
+
+    h3{
+        font-family: $thypographyTitleh2;
+        color:$ColorthypographyBanner;
+        font-size: 15px;
+        width: 30px;
+        height:25px;
+        text-align: center;
+    
+        padding: 1vh; 
+        margin: 1vh;
+        margin-top: 2.5vh;
+        width: 200px;    
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .ContainerNextThreeDays{
+        width: 400px;
+        height:50px;
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        margin-top: 6vh;
+
+    h2{
+        width: 100px;
+       padding-bottom: 1vh;
+       color:white;
+    }
+    h3{
+        width: 100px;
+        color:white;
+    }
+
+ }
+}

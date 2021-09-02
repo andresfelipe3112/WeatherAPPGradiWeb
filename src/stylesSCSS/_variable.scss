@@ -1,0 +1,25 @@
+
+
+//App_body
+@mixin BackgroundApp {
+    background-color: #ffffff;
+}
+
+//TOP_BANNER
+
+//Typografias
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+$thypographyTitleh1: 'Cutive Mono', monospace;
+$thypographyTitleh2:  'IBM Plex Mono', monospace;
+
+//mixins
+@mixin BorderRadius20px {
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 8px;
+}
+
+//variables
+$ColorthypographyBanner:rgb(56, 0, 94);
+$ColorthypographyBannerBogota-Colombia:rgb(56, 0, 94);

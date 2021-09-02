@@ -1,3 +1,45 @@
+
+## Título del Proyecto
+Prueba técnica weatherAPP para GradiWeb!
+
+Comenzando 🚀
+
+Mira Deployment para conocer como desplegar el proyecto.
+
+
+## Pre-requisitos 📋
+Para correr el proyecto necesitas un editor de código y una terminal con Node.js instalado.
+Por ejemplo Visual Studio Code ( tiene una terminal incluida )
+
+## Instalación 🔧
+
+El proyecto esta creado con React.js.
+-> Para programadores: Run “with npm start” en la terminal de preferencia de Node.js (creara un servidor local para mirar el proyecto y trabajarlo)
+
+## Construido con 🛠️
+
+HTML5
+CSS3
+PREPROCESADOR SCSS
+REACT.JS
+TYPESCRIP
+JAVASCRIPT
+
+## Autores ✒️
+
+Andrés Felipe Pinilla Meneses  
+c.c 1.014.245.104   
+andresfelipe3112@gmail.com
+In: https://www.linkedin.com/in/andresfelipepinillameneses/
+Tel: 314 209 9202
+Licencia 📄
+Este proyecto está bajo la Licencia (GradiWeb) 
+
+⌨️ con ❤️ por Andres Felipe Pinilla Meneses 😊
+
+
+DESPLIEGUE CON REACT.JS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

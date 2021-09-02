@@ -1,0 +1,41 @@
+@import "variable";
+
+.ContainerApp{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    
+    background-image:url(../stylesSCSS/img/fondo.png) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+
+    width: 100%;
+    height: 100%;
+    
+
+   
+}
+
+
+@media (max-width: 450px) {
+    .ContainerApp{
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-image:none;
+    
+        justify-content: center;
+        background-color: rgb(7, 1, 34);
+       
+    
+        width: 100%;
+        height: 100%;
+        
+    
+       
+    }  
+}
