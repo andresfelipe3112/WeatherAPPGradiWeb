@@ -1,6 +1,6 @@
 
 import TopBanner from "./components/TopBanner"
-import NextThreeDays from "./components/NextThreeDays.tsx"
+import NextThreeDays from "./components/NextThreeDays"
 import "./stylesSCSS/App.scss"
 import ParisWather from "./components/ParisWather"
 
