@@ -9,7 +9,7 @@ Mira Deployment para conocer como desplegar el proyecto.
 
 <p align="center">
   <img src="./src/stylesSCSS/img/mobile.png" width="350" title="hover text">
-  <img src="./src/stylesSCSS/img/Web.png" width="350" alt="accessibility text">
+  <img src="./src/stylesSCSS/img/Web.png" width="650" alt="accessibility text">
 </p>
 
 
