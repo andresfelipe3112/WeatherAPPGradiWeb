@@ -14,8 +14,14 @@ function NextThreeDays() {
 
 
     const date = (): void => {
-        const fecha = new Date(dataWatherCity.nextDay !== "" && dataWatherCity.nextDay.list[0].dt_txt)
+        const fecha = new Date()
         const numeroDia = fecha.getDay()
+
+
+
+        console.log(fecha + "Fecha")
+        console.log(numeroDia + "NúmeroDia");
+
         const dias = [
 
             'lunes',
@@ -27,9 +33,9 @@ function NextThreeDays() {
             'domingo',
         ];
 
-        setstate([dias[numeroDia + 1 > 6 ? numeroDia + 1 - 7 : numeroDia + 1], fecha.toString().slice(4, 15)])
-        setstate2([dias[numeroDia + 2 > 6 ? numeroDia + 2 - 7 : numeroDia + 2], fecha.toString().slice(4, 15)])
-        setstate3([dias[numeroDia + 3 > 6 ? numeroDia + 3 - 7 : numeroDia + 3], fecha.toString().slice(4, 15)])
+        setstate([dias[numeroDia > 6 ? numeroDia - 7 : numeroDia], fecha.toString().slice(4, 15)])
+        setstate2([dias[numeroDia + 1 > 6 ? numeroDia + 1 - 7 : numeroDia + 1], fecha.toString().slice(4, 15)])
+        setstate3([dias[numeroDia + 2 > 6 ? numeroDia + 2 - 7 : numeroDia + 2], fecha.toString().slice(4, 15)])
     }
 
     useEffect(() => {
